@@ -1,0 +1,86 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 200 176)
+	(text "DisplayDezena" (rect 5 0 93 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 139 24 156)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Entrada [4..0]" (rect 0 0 80 19)(font "Intel Clear" (font_size 8)))
+		(text "Entrada [4..0]" (rect 21 27 101 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 184 32)
+		(output)
+		(text "Saida " (rect 0 0 37 19)(font "Intel Clear" (font_size 8)))
+		(text "Saida " (rect 126 27 163 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 184 32)(pt 168 32))
+	)
+	(port
+		(pt 184 48)
+		(output)
+		(text "Saida1" (rect 0 0 42 19)(font "Intel Clear" (font_size 8)))
+		(text "Saida1" (rect 121 43 163 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 184 48)(pt 168 48))
+	)
+	(port
+		(pt 184 64)
+		(output)
+		(text "Saida2" (rect 0 0 42 19)(font "Intel Clear" (font_size 8)))
+		(text "Saida2" (rect 121 59 163 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 184 64)(pt 168 64))
+	)
+	(port
+		(pt 184 80)
+		(output)
+		(text "Saida3 " (rect 0 0 46 19)(font "Intel Clear" (font_size 8)))
+		(text "Saida3 " (rect 117 75 163 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 184 80)(pt 168 80))
+	)
+	(port
+		(pt 184 96)
+		(output)
+		(text "Saida4" (rect 0 0 42 19)(font "Intel Clear" (font_size 8)))
+		(text "Saida4" (rect 121 91 163 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 184 96)(pt 168 96))
+	)
+	(port
+		(pt 184 112)
+		(output)
+		(text "Saida5" (rect 0 0 42 19)(font "Intel Clear" (font_size 8)))
+		(text "Saida5" (rect 121 107 163 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 184 112)(pt 168 112))
+	)
+	(port
+		(pt 184 128)
+		(output)
+		(text "Saida6" (rect 0 0 42 19)(font "Intel Clear" (font_size 8)))
+		(text "Saida6" (rect 121 123 163 142)(font "Intel Clear" (font_size 8)))
+		(line (pt 184 128)(pt 168 128))
+	)
+	(drawing
+		(rectangle (rect 16 16 168 144))
+	)
+)

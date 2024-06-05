@@ -1,0 +1,6 @@
+ComparadorGeral -> Comparador que comparara considerando o bit de sinal
+Comp -> comparador de magnitude
+Comp00 -> Compara para dois numeros positivos
+Comp01 -> Compara para positivo e negativo(ordem 1)
+Comp10 -> Compara para positivo e negativo(ordem 2)
+Comp11 -> Compara para dois numeros negativos
